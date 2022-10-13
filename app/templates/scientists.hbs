@@ -1,3 +1,5 @@
-{{#each @model as |scientist|}}
-  <li>{{scientist.name}}</li>
-{{/each}}
+<div data-test-scientists-list>
+  {{#each @model as |scientist|}}
+    <li>{{scientist.name}}</li>
+  {{/each}}
+</div>
